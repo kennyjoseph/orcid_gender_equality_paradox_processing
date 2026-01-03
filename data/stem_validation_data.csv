@@ -1,0 +1,251 @@
+cmd,stem final,medicine final
+chemistry,1,0
+physics,1,0
+psychology,0,0
+medicine,1,1
+mechanical engineering,1,0
+education,0,0
+biology,1,0
+mathematics,1,0
+computer science,1,0
+civil engineering,1,0
+economics,0,0
+engineering,1,0
+lime,0,0
+law,0,0
+history,0,0
+biochemistry,1,0
+nursing,0,0
+management,0,0
+philosophy,0,0
+sociology,0,0
+english,0,0
+microbiology,1,0
+biotechnology,1,0
+architecture,0,0
+public health,0,0
+social sciences,0,0
+biomedical engineering,1,0
+surgery,1,1
+pediatrics,1,1
+life sciences,1,0
+humanities,0,0
+anthropology,0,0
+geology,1,0
+pathology,1,1
+psychiatry,0,1
+business administration,0,0
+business,0,0
+botany,1,0
+industrial engineering,1,0
+cardiology,1,1
+communication,0,0
+letters,0,0
+medical school,1,1
+marketing,0,0
+genetics,1,1
+dentistry,1,1
+social work,0,0
+right,0,0
+international relations,0,0
+computing,1,0
+graduate school,0,0
+electrical and electronic engineering,1,0
+biochemistry and molecular biology,1,0
+immunology,1,1
+business school,0,0
+bioengineering,1,0
+arts,0,0
+environmental engineering,1,0
+mechanical,1,0
+biosciences,1,0
+anatomy,1,1
+applied physics,1,0
+education department,0,0
+emergency medicine,1,1
+lambayeque,0,0
+it,1,0
+humanities and social sciences,0,0
+ancash,0,0
+clinical psychology,0,0
+kinesiology,0,1
+ecology,1,0
+physical,0,0
+geophysics,1,0
+technology,1,0
+basic sciences,1,0
+emergency department,1,1
+university graduate,0,0
+communications,0,0
+graduate program in education,0,0
+nutrition and dietetics,0,0
+engineering department,1,0
+high school,0,0
+neonatology,1,1
+data science,1,0
+applied science,1,0
+literature,0,0
+pediatric dentistry,1,1
+electrical and electronics,1,0
+basic education,0,0
+audiology,1,1
+computational biology,1,0
+continuing education,0,0
+infectious disease,1,1
+graduate program in history,0,0
+human physiology,1,1
+pharmacology and therapeutics,1,1
+translation,0,0
+environmental science and technology,1,0
+engenharia de alimentos,1,0
+psychological science,0,0
+physical education college,0,0
+divinity,0,0
+communication and arts,0,0
+mechanical engineer,1,0
+philosophical faculty,0,0
+healthcare management,0,0
+architecture department,0,0
+accounting &amp; finance,0,0
+biotechnology institute,1,0
+biomaterials,1,0
+physical and mathematical sciences,1,0
+head and neck surgery,1,1
+graduate program in social sciences,0,0
+hydrology and water resources,1,0
+language and communication,0,0
+"biological, environmental sciences and engineering",1,0
+disappear,0,0
+departamento de biologia animal,1,0
+school science education,0,0
+poultry production,1,0
+viticulture and enology,0,0
+public administration and management,0,0
+technical faculty,1,0
+applied languages,0,0
+engineering and public policy,1,0
+"environment, education and development",0,0
+radiobiology,1,0
+applied human sciences,0,0
+engineering materials,1,0
+conservation department,0,0
+mathematics and applied statistics,1,0
+laboratory of organic chemistry,1,0
+bioengineering and aerospace engineering,1,0
+centre for mathematical sciences,1,0
+"chemistry, materials and chemical engineering \""giulio natta\""",1,0
+electronics and informatics,1,0
+cancer research uk cambridge institute,1,1
+sni,0,0
+water treatment,1,0
+electrical&amp;electronics engineering,1,0
+organic and medicinal chemistry,1,0
+university chemical technology,1,0
+anthropology and archeology,0,0
+rural and urban planning,0,0
+information processing science,1,0
+system biology,1,0
+fish and wildlife,1,0
+clinical oncology and nuclear medicine,1,1
+hospital de clínicas,1,1
+forensic and applied sciences,1,1
+biology-chemistry,1,0
+pathogen molecular biology,1,0
+philosophy sciences and letters,0,0
+climate and environmental physics,1,0
+neurosciences and mental health,0,0
+international and public policy,0,0
+crop science department,1,0
+aquatic animal health management,0,0
+"infection, immunity &amp; cardiovascular disease",1,1
+anesthesia and intensive care unit,1,1
+biochemisty and molecular biology,1,0
+inibioma,1,0
+cell and development biology,1,0
+"snt - interdisciplinary centre for security, reliability and trust",0,0
+transport planning and systems,0,0
+teaching and tradition,0,0
+geospatial sciences center of excellence,1,0
+faculty science,1,0
+health care studies,0,0
+postgraduate program in computer science,1,0
+artificial inteligence,1,0
+standing committee on medical education,1,1
+mrc social genetic and developmental psychiatry centre,0,1
+rolling mill,0,0
+center for biomedical and healthcare engineering,1,0
+western religion history,0,0
+medicine - neurology,1,1
+student affairs and services,0,0
+maritime transportation,0,0
+graduate engineering sciences,1,0
+geography &amp; spatial planning,1,0
+biotechnology and informatics,1,0
+ufr seg,0,0
+lithuanian literature,0,0
+postgraduate professional master,0,0
+i. physics b,1,0
+"oceanography and fisheries, university of azores",1,0
+science and higher education,1,0
+"postgraduate in geography, philosophy and letters",0,0
+hepato-pancreato-biliary surgery and liver transplant,1,1
+materialscience,1,0
+agro-industrial engineering program,1,0
+esilv,0,0
+center study of traditions,0,0
+engineering graphics and design,1,0
+tehran branch,0,0
+"technical programme, languages",0,0
+"chemistry and molecular engineering,",1,0
+"environmental studies, geosciences",1,0
+computer graduate program,1,0
+b.comca,0,0
+pharmacognosy &amp; pharmaceutical botany,1,0
+research center for archaeometry,0,0
+"\""alexandra\"" hospital, 1st ob/gyn department",1,1
+maos,0,0
+electrical and computer engineerings,1,0
+mine building and underground structures,0,0
+"administration, accounting department and human resources department",0,0
+graduate science and technology.,1,0
+area of consultancy,0,0
+"hotel, restaurant and recreation management",0,0
+ufr management,0,0
+gradaute program in neuroscience,0,0
+discovery research and development,1,0
+technology campus ostend,1,0
+salvador education center,0,0
+"double-degree master’s program \""history in public sphere",0,0
+nursing randers,0,0
+"umrs 938 - laboratory \""immune system and neuroinflammation\""",1,1
+computer science &amp; math double major,1,0
+sunnybrook center for prehosptial medicine,1,1
+system engeniering and computer science,1,0
+cosmic physics - geophysics section,1,0
+health science-division of epidemiology &amp; biostatistics,1,1
+biology and environmental sciene,1,0
+university baccalaureate in environmental management engineering,1,0
+engenharia química -tecnologia química,1,0
+depeartment of electrical and computer engineering,1,0
+"psychology, biology, french studies",0,0
+orthodontic professional committee,1,1
+smart mobility research department,1,0
+socio-ducational area,0,0
+sistem informasi bisnis/busness information system,0,0
+madic,0,0
+special advisory and institutional representation,0,0
+key laboratory of machine perception moe,1,0
+student and academic support services,0,0
+digital maketing,0,0
+"aghyle up.2018.c101, sfr condorcet fr cnrs 3417",0,0
+philosophy. political science.,0,0
+"clasic - computational linguistics, analytics, search and informatics pmp program",1,0
+information technology cognitive science,1,0
+humanities research institute hri,0,0
+memoria social e patrimonio cultural,0,0
+adipocyte biology laboratory,1,0
+foreign languages research center,0,0
+toxicology and feed quality,1,1
+skl computer architecture,1,0
+centralized monitoring solutions,0,0
+"philosophy, government autonomous college, rourkela",0,0

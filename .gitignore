@@ -1,0 +1,37 @@
+# Byte-compiled / cache
+*.py[cod]
+__pycache__/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+
+# Python packaging
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+wheels/
+pip-wheel-metadata/
+
+# Dependency / environment locks
+Pipfile.lock
+poetry.lock
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.cover/
+
+# Editor / temp
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
