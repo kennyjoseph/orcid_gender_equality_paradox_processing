@@ -12,12 +12,9 @@ The notebooks should be run in sequential order (00 through 05).
 
 **Input:** Raw ORCID XML files from `/data/orcid/ORCID_2025_10_summaries/`, from the [2025 ORCID data dump](https://orcid.figshare.com/articles/dataset/ORCID_Public_Data_File_2025/30375589/1).
 
-**Output:** Raw affiliations data at the country/year level that is input to the statistical models described in the paper
-
+**Output:** Processed affiliations for use in the next series of preprocessing steps
 
 ---
-
-### 00_data_cleaning.ipynb
 
 ### 01_data_cleaning.ipynb
 
