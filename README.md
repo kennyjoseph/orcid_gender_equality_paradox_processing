@@ -156,16 +156,41 @@ The notebooks should be run in sequential order (00 through 05).
 
 ---
 
+## Robustness Scripts
+
+Two scripts in `robustness/` probe whether affiliation name similarity (via sentence embeddings) is structured by country or by time period.
+
+### robustness/affiliation_pairs_by_country.py
+
+For each of 10,000 sampled affiliations (restricted to those with >10 unique users), finds its 50 nearest neighbours in embedding space and selects one that shares a country and one that does not. Records both pairs with their cosine similarity.
+
+**Output:** `robustness/affiliation_pairs.csv` — columns: `anchor`, `same_country_affil`, `diff_country_affil`, `same_country_cos_sim`, `diff_country_cos_sim`
+
+### robustness/affiliation_pairs_by_time_period.py
+
+Same approach, but compares affiliations within the same country across two time windows: 1995–2010 and 2010–2025. Neighbours are restricted to affiliations sharing at least one country with the anchor; the pair type is then determined by whether anchor and neighbour overlap in time period.
+
+**Output:** `robustness/affiliation_time_period_pairs.csv` — columns: `anchor`, `same_period_affil`, `diff_period_affil`, `same_period_cos_sim`, `diff_period_cos_sim`
+
+Run either script from the project root with:
+
+```bash
+conda run -n orcid_gep python robustness/affiliation_pairs_by_country.py
+conda run -n orcid_gep python robustness/affiliation_pairs_by_time_period.py
+```
+
+---
+
 ## Environment Setup
 
-This project was developed using the `orcid2` conda environment. To replicate the environment:
+This project uses the `orcid_gep` conda environment. To replicate it:
 
 ```bash
 # Create a new conda environment
-conda create -n orcid2 python=3.10
+conda create -n orcid_gep python=3.11
 
 # Activate the environment
-conda activate orcid2
+conda activate orcid_gep
 
 # Install dependencies from requirements.txt
 pip install -r requirements.txt
@@ -182,11 +207,12 @@ python -c "import nltk; nltk.download('punkt'); nltk.download('averaged_perceptr
 - pandas, numpy
 - scikit-learn
 - spacy (`en_core_web_md`)
+- sentence-transformers (`all-MiniLM-L6-v2`)
+- faiss-cpu
 - SimCSE (`princeton-nlp/sup-simcse-roberta-large`)
 - nomquamgender
 - langid
 - google-cloud-translate
-- dropbox
 - BeautifulSoup4
 - nltk
 - joblib
@@ -200,7 +226,7 @@ See `requirements.txt` for the complete list of pinned dependencies.
 
 - **Google Translate API** - For translating non-English affiliations
 - **Namsor API** - For gender inference on names not covered by NomQuam
-
+- **Claude API** - For checking whether or not affiliations are academic fields or not
 ---
 
 ## Data Sources
@@ -208,5 +234,5 @@ See `requirements.txt` for the complete list of pinned dependencies.
 - ORCID 2025-10 data dump
 - NSF field taxonomy (from archive.org)
 - Wikipedia academic disciplines outline
-- Larremore field classification dataset
+- Spoon et al. field classification dataset
 - Hand-coded STEM affiliations data
