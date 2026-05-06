@@ -10,7 +10,7 @@ import os
 CACHE_EMBEDDINGS = "cache_embeddings.npy"
 CACHE_AFFILIATIONS = "cache_affiliations.pkl"
 
-PERIODS = [("1995-2000", 1995, 2001), ("2020-2025", 2020, 2026)]
+PERIODS = [("1990-2000", 1990, 2001), ("2015-2025", 2015, 2026)]
 
 def assign_periods(years):
     out = set()
